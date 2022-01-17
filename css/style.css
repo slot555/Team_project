@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Верхнее меню */
+.top-menu {
+    background: #fff;
+    height: 80px;
+    width: 100%;
+}
+
+.top-menu ul li {
+    display: inline-block;
+}
+
+.top-menu ul li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #616161;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.top-menu ul ul {
+    width: 14rem;
+    margin-left: 62px;
+    margin-top: 16.5px;
+    border-top: 4px solid #DD4053;
+    position: absolute;
+    background: #FFFFFF;
+    display: none;
+}
+
+.top-menu ul li:hover > ul {
+    display: block;
+}
+
+.top-menu ul ul li {
+    display: list-item;
+    height: 30px;
+    border: 0.5px solid #D0D0D0;
+}
+
+.top-menu ul ul li a {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 0;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ion-icon {
+    color: black;
+    font-size: 32px;
+  }
+
+/* Информационное верхнее меню */
+
+.top-info {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    width: 100%;
+    height: 90px;
+}
+
+.top-logo {
+    position: absolute;
+    margin-left: -14rem;
+    width: 131px;
+    height: 72px;
+    margin-top: 1rem;
+} 
+
+/*Стенки*/
+.wall {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 21rem;
+    width: 1px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall1 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 27.5rem;
+    width: 1px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall2 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 37rem;
+    width: 1px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+/*Курсы*/
+.curs {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #393939;
+    margin-left: 29.5rem;
+    margin-top: 1.4rem;
+}
+
+/*Язык*/
+
+.lau {
+    position: absolute;
+    margin-top: 1.19rem;
+    margin-left: 23rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+.ru {
+    color: #FFFFFF;
+    background: #4AD295;
+    padding: 0.5px 7px;
+    border-radius: 10%;
+}
+
+.social {
+    margin-top: 2.5px;
+    position: absolute;
+    margin-left: 38rem;
+}
+
+/*Настройка иконок*/
+.soc-img {
+    margin-top: 2rem;
+    margin-left: 15px;
+    max-height: 30px;
+    max-width: 70px;    
+}
+
+/*Иконка ютуба*/
+.yt {
+    height: 22px;
+    width: 30px;
+    margin-bottom: 3px;
+}
