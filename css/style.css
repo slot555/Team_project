@@ -67,6 +67,7 @@ ion-icon {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2vw;
+    margin-left: 20rem;
     width: 100%;
     height: 90px;
 }
@@ -102,6 +103,24 @@ ion-icon {
     position: absolute;
     margin-top: 1.5rem;
     margin-left: 37rem;
+    width: 1px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall3 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 48rem;
+    width: 1px;
+    height: 50px;
+    border: 0.5px solid #E2E2E2;
+}
+
+.wall4 {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 63.5rem;
     width: 1px;
     height: 50px;
     border: 0.5px solid #E2E2E2;
@@ -154,3 +173,161 @@ ion-icon {
     width: 30px;
     margin-bottom: 3px;
 }
+
+/*Контактные номера*/
+.number {
+    position: absolute;
+    margin-top: 1.4rem;
+    margin-left: 50rem;
+    font-size: 20.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.phone {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -1.55rem;
+}
+
+/*Таблички*/
+.mais {
+    position: absolute;
+    background-color: #EFF3F6;
+    Width: 240px;
+    Height: 55px;
+    border-radius: 2px;
+    margin-top: 1.3rem;
+    margin-left: 66rem;
+}
+
+.mais-t {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-top: 13px;
+    margin-left: -98px;
+}
+
+.mais-ri {
+    position: absolute;
+    background-color: #DD4053;
+    border-radius: 2px;
+    margin-left: 13.6rem;
+    Width: 55px;
+    Height: 55px;
+
+}
+
+.tabg {
+    margin-top: 15.6px;
+    height: 24px;
+    width: 24px;
+}
+
+.tour {
+    position: absolute;
+    background-color: #EFF3F6;
+    Width: 205px;
+    Height: 55px;
+    border-radius: 2px;
+    margin-top: 1.3rem;
+    margin-left: 85.3rem;
+}
+
+.tour-t {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-top: 13px;
+    margin-left: -80px;
+}
+
+.tour-ri {
+    position: absolute;
+    background-color: #4AD295;
+    border-radius: 2px;
+    margin-left: 11.5rem;
+    Width: 55px;
+    Height: 55px;
+
+}
+
+.search {
+    margin-top: 12px;
+    height: 29px;
+    width: 30px;
+}
+
+/*Картинка отеля сверху*/
+.top-hotel {
+    position: absolute;
+    top: 25%;
+    margin-top: -7.7rem;
+}
+
+.border-ot300 {
+    position: absolute;
+    width: 498px;
+    height: 90px;
+    border: 2px solid #FFFFFF;
+    left: 25%;
+    top: 25%;
+    margin-top: 4.6rem;
+    margin-left: -19.8rem;
+}
+
+.text-ot300 {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    top: 10%;
+    left: 8%;
+}
+
+.text-ecoh {
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 7rem;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 100px;
+    margin-top: -26.5vw;
+    margin-left: 24.7rem;
+    text-align: left;
+}
+
+/*Кнопка "Подробнее"*/
+.podr {
+    position: absolute;
+    margin-left: 25.2rem;
+    margin-top: 6rem;
+    width: 540px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+}
+
+.podr-t {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    top: 30%;
+    left: 30%;
+}
+
+/*Трейтий уровень "Консультация"*/
+.lev3 {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: #F8F8F8;
+    margin-top: 39.39vw;
+}
+
+
