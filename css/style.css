@@ -267,6 +267,7 @@ ion-icon {
     position: absolute;
     top: 25%;
     margin-top: -7.7rem;
+    max-width: 1080px;
 }
 
 .border-ot300 {
@@ -276,8 +277,8 @@ ion-icon {
     border: 2px solid #FFFFFF;
     left: 25%;
     top: 25%;
-    margin-top: 4.6rem;
-    margin-left: -19.8rem;
+    margin-top: 1rem;
+    margin-left: 8.3rem;
 }
 
 .text-ot300 {
@@ -292,7 +293,6 @@ ion-icon {
 .text-ecoh {
     color: #FFFFFF;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 7rem;
     font-weight: 500;
     font-size: 90px;
     line-height: 100px;
@@ -325,9 +325,289 @@ ion-icon {
 .lev3 {
     position: absolute;
     width: 100%;
-    height: 250px;
+    height: 350px;
     background: #F8F8F8;
     margin-top: 39.39vw;
 }
 
+.head-text-lev3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 25rem;
+}
 
+.loft-text-lev3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 25rem;
+    color: #777777;
+}
+
+.pred-button-lev3 {
+    position: absolute;
+    background: #BDBDBD;
+    border-radius: 2px;
+    Width: 360px;
+    Height: 70px;
+    margin-left: 25.1rem;
+    margin-top: 2rem;
+}
+
+.pbl3-text {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    top: 20%;
+    left: 12%;
+}
+
+.kons-button-lev3 {
+    position: absolute;
+    border: 1px solid #969696;
+    border-radius: 3px;
+    Width: 360px;
+    Height: 70px;
+    margin-left: 50.1rem;
+    margin-top: 2rem;
+}
+
+.kbl3-text {
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #969696;
+    font-size: 30px;
+    top: 20%;
+    left: 25%;
+}
+
+/*Привелегии (уровень 3)*/
+.priv-lev3 {
+    margin-top: -10rem;
+    margin-left: 49vw;
+}
+
+.it-lev3 {
+    margin-top: 25px;
+}
+
+.t-lev3 {
+    display: inline-block;
+    margin-top: -70px;
+    margin-left: 30px;
+}
+
+/*Медийки*/
+@media (max-width: 1750px) {
+    .top-menu ul li a{
+        font-size: 30px;
+        margin-left: 70px;
+    } 
+
+    /* Информационное верхнее меню */
+
+    .top-info {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2vw;
+        margin-left: 20rem;
+        width: 100%;
+        height: 90px;
+    }
+
+    .top-logo {
+        position: absolute;
+        margin-left: -34rem;
+        width: 131px;
+        height: 72px;
+        margin-top: 1rem;
+    } 
+
+    .wall {
+        position: absolute;
+        margin-top: 1.5rem;
+        margin-left: -6.9rem;
+        width: 1px;
+        height: 50px;
+        border: 0.5px solid #E2E2E2;
+    }
+    
+    .wall1 {
+        position: absolute;
+        margin-top: 1.5rem;
+        margin-left: -0.6rem;
+        width: 1px;
+        height: 50px;
+        border: 0.5px solid #E2E2E2;
+    }
+    
+    .wall2 {
+        position: absolute;
+        margin-top: 1.5rem;
+        margin-left: 8.6rem;
+        width: 1px;
+        height: 50px;
+        border: 0.5px solid #E2E2E2;
+    }
+    
+    .wall3 {
+        position: absolute;
+        margin-top: 1.5rem;
+        margin-left: 19.6rem;
+        width: 1px;
+        height: 50px;
+        border: 0.5px solid #E2E2E2;
+    }
+    
+    .wall4 {
+        position: absolute;
+        margin-top: 1.5rem;
+        margin-left: 35.5rem;
+        width: 1px;
+        height: 50px;
+        border: 0.5px solid #E2E2E2;
+    }
+    
+    /*Курсы*/
+    .curs {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 21px;
+        color: #393939;
+        margin-left: 1.2rem;
+        margin-top: 1.4rem;
+    }
+    
+    /*Язык*/
+    
+    .lau {
+        position: absolute;
+        margin-top: 1.19rem;
+        margin-left: -5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 21px;
+    }
+    
+    .ru {
+        color: #FFFFFF;
+        background: #4AD295;
+        padding: 0.5px 7px;
+        border-radius: 10%;
+    }
+
+    /*Иконки инфо меню*/
+    
+    .social {
+        margin-top: 2.5px;
+        position: absolute;
+        margin-left: 9.6rem;
+    }
+
+    .soc-img {
+        margin-top: 2rem;
+        margin-left: 15px;
+        max-height: 30px;
+        max-width: 70px;    
+    }
+    
+    /*Иконка ютуба*/
+    .yt {
+        height: 22px;
+        width: 30px;
+        margin-bottom: 3px;
+    }
+    
+    /*Контактные номера*/
+    .number {
+        position: absolute;
+        margin-top: 1.4rem;
+        margin-left: 21.7rem;
+        font-size: 20.5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .phone {
+        position: absolute;
+        margin-left: 15px;
+        margin-top: -1.55rem;
+    }
+    
+    /*Таблички*/
+    .mais {
+        position: absolute;
+        background-color: #EFF3F6;
+        Width: 240px;
+        Height: 55px;
+        border-radius: 2px;
+        margin-top: 1.3rem;
+        margin-left: 37.8rem;
+    }
+    
+    .mais-t {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 24px;
+        margin-top: 13px;
+        margin-left: -98px;
+    }
+    
+    .mais-ri {
+        position: absolute;
+        background-color: #DD4053;
+        border-radius: 2px;
+        margin-left: 13.6rem;
+        Width: 55px;
+        Height: 55px;
+    
+    }
+    
+    .tabg {
+        margin-top: 15.6px;
+        height: 24px;
+        width: 24px;
+    }
+    
+    .tour {
+        position: absolute;
+        background-color: #EFF3F6;
+        Width: 205px;
+        Height: 55px;
+        border-radius: 2px;
+        margin-top: 1.3rem;
+        margin-left: 57.3rem;
+    }
+    
+    .tour-t {
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 24px;
+        margin-top: 13px;
+        margin-left: -80px;
+    }
+    
+    .tour-ri {
+        position: absolute;
+        background-color: #4AD295;
+        border-radius: 2px;
+        margin-left: 11.5rem;
+        Width: 55px;
+        Height: 55px;
+    
+    }
+    
+    .search {
+        margin-top: 12px;
+        height: 29px;
+        width: 30px;
+    }
+
+}
