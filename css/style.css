@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,34 +10,40 @@
 .container {
     width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 
 /*Верхнее меню */
 .top-menu {
     background: #fff;
     height: 70px;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
     
 }
 
 .top-menu ul {
     text-align: center;
+    margin-top: 27px;
 }
 
 
 .top-menu ul li {
     display: inline-block;
+    height: 40px;
 }
 
 .top-menu ul li a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #616161;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 60px;
 }
 
 .top-menu ul ul {
+    text-align: center;
     width: 14rem;
-    margin-left: 62px;
+    margin-left: 54px;
     margin-top: 16.5px;
     border-top: 4px solid #DD4053;
     position: absolute;
@@ -49,15 +57,28 @@
 }
 
 .top-menu ul ul li {
-    display: list-item;
-    height: 30px;
+    display: block;
+    height: 32.2px;
     border: 0.5px solid #D0D0D0;
-    margin-top: -0.2px;
 }
 
 .top-menu ul ul li a {
+    position: relative;
+    margin: 0 auto;
     font-size: 15px;
-    margin-left: 0;
+    top: 5px;
+}
+
+.top-menu ul ul li a:hover {
+    color: #DD4053;
+    transition: 0.4s;
+}
+
+.ion {
+    margin-bottom: 2px;
+    margin-left: 7px;
+    height: 6px;
+    width: 7px;
 }
 
 hr {
@@ -69,15 +90,22 @@ ion-icon {
     position: absolute;
     color: black;
     font-size: 20px;
-    margin-top: 3px;
+    margin-top: -1px;
     margin-left: -1.3rem;
   }
 
 /* Информационное верхнее меню */
 
+.top-menu-info-container {
+    width: 1420px;
+    margin: 0 auto;
+    height: 100%;
+}
+
 .top-info {
     display: inline-grid;
-    height: 90px;
+    width: 100%;
+    height: 100px;
     margin-left: -1.6rem;
 }
 
@@ -138,11 +166,12 @@ ion-icon {
 /*Курсы*/
 .curs {
     position: absolute;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 21px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
     color: #393939;
-    margin-left: 23.1rem;
-    margin-top: 1.4rem;
+    margin-left: 23.7rem;
+    margin-top: 1.7rem;
 }
 
 /*Язык*/
@@ -150,7 +179,7 @@ ion-icon {
 .lau {
     position: absolute;
     margin-top: 1.19rem;
-    margin-left: 17.7rem;
+    margin-left: 17.6rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 21px;
     text-align: center;
@@ -198,10 +227,10 @@ ion-icon {
 /*Контактные номера*/
 .number {
     position: absolute;
-    margin-top: 1.4rem;
+    margin-top: 1.9rem;
     margin-left: 40.1rem;
-    font-size: 20.5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .phone {
@@ -220,15 +249,14 @@ ion-icon {
     margin-top: 1.3rem;
     margin-left: 55.3rem;
 }
-
 .mais-t {
     position: absolute;
     text-decoration: none;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    margin-top: 13px;
-    margin-left: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-left: 18px;
 }
 
 .mais-ri {
@@ -262,10 +290,10 @@ ion-icon {
     position: absolute;
     text-decoration: none;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    margin-top: 13px;
-    margin-left: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 17px;
+    margin-left: 24px;
 }
 
 .tour-ri {
@@ -288,8 +316,8 @@ ion-icon {
 /*Картинка отеля сверху*/
 .top-hotel {
     position: absolute;
-    top: 25%;
-    margin-top: -7.5rem;
+    top: 170px;
+    /* margin-top: -7.7rem; */
     z-index: 1;
 }
 
@@ -304,8 +332,8 @@ ion-icon {
     width: 249px;
     height: 45px;
     border: 1px solid #FFFFFF;
-    left:48%;
-    top: 38.2%;
+    left:13.7%;
+    top: 274px;
 }
 
 .text-ot300 {
@@ -324,16 +352,16 @@ ion-icon {
     height: 102px;
     font-weight: 500;
     font-size: 45px;
-    line-height: 50px;
+    line-height: 45px;
     text-align: left;
-    margin-left: 47.7%;
-    margin-top: -13vw;
+    margin-left: 13.5%;
+    top: 335;
 }
 
 /*Кнопка "Подробнее"*/
 .podr {
     position: absolute;
-    margin-left: 43.2rem;
+    margin-left: 12.4rem;
     margin-top: 2rem;
     width: 270px;
     height: 60px;
@@ -353,11 +381,10 @@ ion-icon {
 /*Трейтий уровень "Консультация"*/
 .lev3 {
     position: absolute;
-    width: 1439px;
+    width: 1440px;
     height: 278px;
     background: #F8F8F8;
-    margin-top: 19.34vw;
-    left: 19.68%;
+    top: 660px
 }
 
 .head-text-lev3 {
@@ -382,8 +409,8 @@ ion-icon {
     position: absolute;
     background: #BDBDBD;
     border-radius: 2px;
-    Width: 360px;
-    Height: 70px;
+    width: 270px;
+    height: 50px;
     margin-left: 198px;
     margin-top: 2rem;
 }
@@ -392,18 +419,18 @@ ion-icon {
     position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFFFFF;
-    font-size: 30px;
-    top: 20%;
-    left: 12%;
+    font-size: 20px;
+    top: 23%;
+    left: 15%;
 }
 
 .kons-button-lev3 {
     position: absolute;
     border: 1px solid #969696;
     border-radius: 3px;
-    Width: 360px;
-    Height: 70px;
-    margin-left: 598px;
+    width: 220px;
+    height: 50px;
+    margin-left: 498px;
     margin-top: 2rem;
 }
 
@@ -411,19 +438,19 @@ ion-icon {
     position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #969696;
-    font-size: 30px;
-    top: 20%;
-    left: 25%;
+    font-size: 20px;
+    top: 21%;
+    left: 24%;
 }
 
 /*Привелегии (уровень 3)*/
 .priv-lev3 {
-    margin-top: -10rem;
+    margin-top: -9.3rem;
     margin-left: 884px;
 }
 
 .it-lev3 {
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 .img-lev3 {
@@ -432,10 +459,11 @@ ion-icon {
 }
 
 .t-lev3 {
-    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3D3D3D;
     font-size: 20px;
-    margin-top: -70px;
-    margin-left: 30px;
+    margin-top: -40px;
+    margin-left: 70px;
 }
 
 
