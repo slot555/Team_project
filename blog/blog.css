@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: monospace;
+    font-style: normal;
+    
+}
+/*Блог*/
+.title{
+    position: absolute;
+    left: 300px;
+    top: 110px;
+    font-size: 30px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.articles >a{
+    text-decoration: none;
+    color: gray;
+    position: relative;
+    top: 11px;
+}
+/*Название*/
+h1{
+    color: #232323;
+    font-weight: 500;
+    top: 30px;
+    margin: 50px 0;
+    font-size: 45px;
+}
+/*Линия*/
+.line{
+    width: 650px;
+    height: 150px;
+    margin-left: 20px;
+}
+/*Линия*/
+hr{
+    margin: 80px  0 0 0;
+    margin-left: 20px;
+    
+} 
+   
+.all{
+    width: 140px;
+    height: 45px;
+    border:  #969696 solid 1px;
+    font-size: 13px;
+    position: relative;
+    top: 55px;
+    left: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 17px;
+}
+.articles{
+    text-decoration: none;
+    color:  #969696;
+}
+.cards{
+  position: absolute;
+  top: 290px;
+  width: 1250px;
+  margin: 0 0 0 300px ;
+}
+img{
+    width: 275px;
+    height: 140px;
+    padding: 10px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border: solid 1px gray;
+    position:relative;
+    top: 300px;
+    left: 200px;
+    border-radius: 50%;
+    margin: 20px 0 0 0;
+    text-align: center;
+    
+}
+.circle >svg{
+    position: relative;
+    top: 10px;
+}
+.card-title{
+    
+    height: 25px;
+    font-size: 14px;
+    color:  #919191;
+    display: flex;
+    justify-content: space-between;
+
+}
+.data{
+    position: relative;
+    right: 30px;
+    font-weight: 500;
+    
+}
+.eye{
+    position: relative;
+    top: -5px;
+}
+.card-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.link >a{
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    
+}
+.link >a:hover{
+    color: #DD4053;
+}
+.email{
+    width: 1440px;
+    height: 255px;
+    background-color:  #DD4053;
+    position: absolute;
+    top: 650px;
+    color: white;
+    
+}
+.text{
+    display: flex;
+    
+}
+.inform{
+   margin: 60px 0 0 250px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+h2{
+    color: white;
+    margin: 60px 0 0 200px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.filling{
+    width: 450px;
+    height: 50px;
+    border: white 1px solid;
+    margin: 30px 0 0 200px;
+    color: inherit;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+}
+  
+.flags{
+    width: 20px;
+    height: 20px;
+    padding-left: 30px;
+}
+.button{
+    
+    top: 140px;
+    left: 1020px;
+    position: absolute;
+    width: 237px;
+    height: 50px;
+    background-color: white;
+    
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    
+}
+.button >a{
+    text-decoration: none;
+    color: #DD4053;
+}
+
+
