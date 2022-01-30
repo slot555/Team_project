@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap');
-@import url(//db.onlinewebfonts.com/c/1cfac2832ad49f16a3ea6b5c2287af2f?family=Mistral);
 
 * {
     margin: 0;
@@ -256,6 +255,7 @@ ion-icon {
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     margin-top: 18px;
     margin-left: 18px;
@@ -293,6 +293,7 @@ ion-icon {
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     margin-top: 17px;
     margin-left: 24px;
@@ -1577,6 +1578,7 @@ ion-icon {
     color: #252525;
     margin-top: 40px;
     margin-left: 200px;
+    line-height: 28px;
 }
 
 .flag-hor-lev11 {
@@ -1591,3 +1593,238 @@ ion-icon {
     color: #DD4053;
 }
 
+.flex-t1-t2 {
+    display: flex;
+}
+
+.block-text2-lev11 {
+    width: 505px;
+    height: 81px;
+    border: 1px solid #C4C4C4;
+    margin-left: 140px;
+    margin-top: 43px;
+}
+
+.text2-lev11 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #252525;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+.lev12 {
+    position: absolute;
+    height: 1071px;
+    width: 1440px;
+    background-color: #F8F8F8;
+    margin-top: 1157px;
+}
+
+.vc-lev11 {
+    position: absolute;
+    margin-top: -99px;
+}
+
+.vc-img-lev11 {
+    margin-left: 1321px;
+}
+
+.vc-text-lev11 {
+    font-size: 31px;
+    font-family: 'Mistral', sans-serif;
+    font-weight: 400;
+    color: #BBBBBB;
+    margin-bottom: 0px;
+    margin-left: 1286px;
+}
+
+.vs-img-lev12 {
+    position: absolute;
+    margin-top: 359px;
+}
+.vs-text-lev12 {
+    position: absolute;
+    font-size: 31px;
+    font-family: 'Mistral', sans-serif;
+    font-weight: 400;
+    color: #BBBBBB;
+    margin-top: 311px;
+    margin-left: 22px;
+}
+
+.head-text-lev12 {
+    position: absolute;
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #262626;
+    margin-left: 198px;
+    margin-top: 100px;
+}
+
+.line-lev12 {
+    position: absolute;
+    width: 628px;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin-top: 230px;
+    margin-left: 198px;
+}
+
+.text-lev12 {
+    display: flex;
+}
+
+.text1-lev12 {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    color: #656565;
+    margin-left: 199px;
+    margin-top: 266px;
+    line-height: 28px;
+}
+
+.text2-lev12 {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    color: #656565;
+    margin-left: 53px;
+    margin-top: 266px;
+    line-height: 28px;
+}
+
+.map-slov-lev12 {
+    float: right;
+    margin-top: 193px;
+}
+
+.glob-lev12 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 870px;
+}
+
+.text-ca-lev12 {
+    position: absolute;
+    font-size: 24px;
+    font-family: 'Mistral', sans-serif;
+    font-weight: 400px;
+    color: #FFFFFF;
+    transform: rotate(-18.82deg);
+    margin-top: 199px;
+    margin-left: 1168px;
+    z-index: 4;
+}
+
+.ca-lev12 {
+    position: absolute;
+    margin-left: 1140px;
+    margin-top: 148px;
+    z-index: 3;
+}
+
+.pod-head-text-lev12 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #323232;
+    margin-left: 199px;
+    margin-top: 97px;
+}
+
+.vis-lev12 {
+    display: flex;
+    margin-left: 219px;
+    margin-top: 38px;
+}
+
+.vis01-lev12 {
+    display: flex;
+}
+
+.num-text-lev12 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #717171;
+}
+
+.vis01-text-lev12 {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #252525;
+    margin-left: 43px;
+}
+
+.vis01-line-lev12 {
+    height: 6px;
+    width: 472px;
+    background-color: #DD4053;
+    margin-top: 13px;
+    margin-left: -20px;
+}
+
+.vis02-lev12 {
+    display: flex;
+    margin-top: 18px;
+}
+
+.lines-lev12 {
+    height: 1px;
+    width: 472px;
+    background-color: #E3E3E3;
+    margin-top: 18px;
+    margin-left: -20px;
+}
+
+.vis03-lev12 {
+    display: flex;
+    margin-top: 38px;
+}
+
+.bg-t-lev12 {
+    position: absolute;
+    left: 0;
+    width: 1440px;
+    margin-top: -20px;
+    opacity: 0.3;
+}
+
+.vis-pilar2-lev12 {
+    margin-left: 63px;
+}
+
+.vis07-lev12 {
+    display: flex;
+    margin-top: 38px;
+}
+
+.lev13 {
+    position: relative;
+    margin-top: 2224px;
+}
+
+.head-text-lev13 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 201px;
+    margin-top: 90px;
+}
+
+.pod-head-text-lev13 {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #EFEFEF;
+    margin-left: 201px;
+    margin-top: 230px;
+}
