@@ -1836,7 +1836,7 @@ ion-icon {
 
 .nl-lev13 {
     height: 50px;
-    width: 270px;
+    width: 230px;
     background: rgba(25, 28, 32, 0.3);
     border: 1px solid #BEBEBE;
     font-size: 16px;
@@ -2429,7 +2429,7 @@ ion-icon {
     position: absolute;
     margin-top: 692px;
     margin-left: 201px;
-    width: 410px;
+    width: 360px;
     height: 50px;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #C4C4C4;
@@ -2446,6 +2446,10 @@ ion-icon {
     margin-left: 664px;
     margin-top: 705px;
     display: flex;
+}
+
+input[type="text" i] {
+    padding: 0 20px;
 }
 
 .button-send-lev18 {
@@ -2513,4 +2517,195 @@ ion-icon {
 .bg-lev18 {
     position: absolute;
     margin-top: 485px;
+}
+
+.lower_menu {
+    position: absolute;
+    width: 1440px;
+    height: 260px;
+    background-color: rgb(248, 248, 248, 0);
+    margin-top: 110px;
+}
+.lower_inform_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    margin: 0px auto;
+}
+.logo_end {
+    width: 155px;
+    height: 85px;
+    color: rgb(62, 62, 62);
+    margin-left: 20px;
+}
+.other_inform {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.hotel {
+    width: 115px;
+    height: 80px;
+    text-align: left;
+}
+.hotel > a {
+    font-size: 15px;
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 19.46px;
+}
+.about {
+    width: 75px;
+    height: 80px;
+    text-align: left;
+}
+.about > a {
+    font-size: 15px;
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 19.46px;
+}
+.schedule {
+    width: 145px;
+    height: 80px;
+    display: block;
+}
+
+.rezim {
+    color: #3E3E3E;
+    opacity: 0.5;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.schedule-text {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #3E3E3E;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.schedule > a {
+    color: rgb(62, 62, 62);
+}
+.grey >a{
+    margin: 5px;
+    color: rgb(211, 211, 211);
+}
+.numbers {
+    width: 170px;
+    height: 80px;
+    text-align: left;
+}
+.numbers > a {
+    color: rgb(62, 62, 62);
+}
+
+.phone-num {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #3E3E3E;
+}
+
+.ot {
+    margin-top: 5px;
+}
+
+.contact {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3E3E3E;
+    opacity: 0.5;
+    margin-top: 25px;
+    position: absolute;
+    
+}
+
+.line_end {
+    width: 1280px;
+    height: 1px;
+    background-color: rgba(29, 29, 29, 0.2);
+    margin: 0px auto;
+}
+.networks {
+    width: 1200px;
+    color: rgba(62, 62, 62, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 0px;
+}
+
+.networks-p-text {
+    margin-left: -20px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgba(62, 62, 62, 0.5);
+}
+
+.text_one{
+    color: #232323;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    padding: 0 20px  0 ;
+}
+.text_two{
+    font-size: 12px;
+    line-height: 12px;
+    color: #848484;
+    padding: 20px;
+}
+.text_three{
+    font-size: 16px;
+    line-height: 26px;
+    color:  #323232;
+    padding: 0 20px 0;
+}
+.text_four{
+    color:  #848484;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 40px 20px 20px;
+}
+.text_five{
+    font-size: 16px;
+    line-height: 26px;
+    color:  #323232;
+    margin: 0 20px 5px;
+   
+}
+
+.text_six{
+    margin: 60px 20px 20px;
+    color: #848484;
+    font-size: 12px;
+    line-height: 12px;
+}
+.text_seven{
+    color: #323232;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 20px;
+}
+.grey >a{
+    color: rgb(182, 182, 182);
+}
+
+
+
+.ic {
+    margin-left: 15px;
+}
+
+.i-yt {
+    margin-bottom: 2.5px;
 }
