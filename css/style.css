@@ -30,6 +30,7 @@
 .top-menu ul li {
     display: inline-block;
     height: 40px;
+    cursor: pointer;
 }
 
 .top-menu ul li a {
@@ -43,7 +44,7 @@
     text-align: center;
     width: 14rem;
     margin-left: 54px;
-    margin-top: 16.5px;
+    margin-top: 19.5px;
     border-top: 4px solid #DD4053;
     position: absolute;
     background: #FFFFFF;
@@ -378,6 +379,11 @@ ion-icon {
     height: 60px;
     background: rgba(255, 255, 255, 0.25);
     border-radius: 2px;
+    cursor: pointer;
+}
+
+.podr:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .podr-t {
@@ -426,6 +432,10 @@ ion-icon {
     margin-top: 2rem;
 }
 
+.pred-button-lev3:hover {
+    background: gray;
+}
+
 .pbl3-text {
     position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -443,6 +453,15 @@ ion-icon {
     height: 50px;
     margin-left: 498px;
     margin-top: 2rem;
+}
+
+.kons-button-lev3:hover {
+    background: #969696;
+} 
+
+
+.kons-button-lev3:hover .kbl3-text {
+    color: #fff;
 }
 
 .kbl3-text {
@@ -507,6 +526,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 88px;
     margin-left: 60px;
+    cursor: pointer;
+}
+
+.gray-circle-lev4:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .gray-arrow-lev4 {
@@ -526,6 +550,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 88px;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.black-circle-lev4:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .h-line-lev4 {
@@ -543,6 +572,14 @@ ion-icon {
     margin-left: 26px;
     border: 1px solid #969696;
     border-radius: 2px;
+}
+
+.head-button-lev4:hover {
+    background: gray;
+}
+
+.head-button-lev4:hover .hbl4-text a{
+    color: #FFFFFF;
 }
 
 .hbl4-text {
@@ -699,6 +736,25 @@ ion-icon {
     margin-left: 26px;
     border: 1px solid #969696;
     border-radius: 2px;
+    cursor: pointer;
+}
+
+.head-button-lev5:hover {
+    background-color: gray;
+}
+
+
+.head-button-lev5:hover .hbl5-text {
+    color: #FFFFFF;
+}
+
+
+.head-button-lev5:hover .hbl6-text {
+    color: #FFFFFF;
+}
+
+.head-button-lev5:hover .hbl7-text {
+    color: #FFFFFF;
 }
 
 .hbl5-text {
@@ -826,6 +882,10 @@ ion-icon {
     margin-right: 30px;
 }
 
+.button-search-lev5:hover {
+    background-color: #DA2032;
+}
+
 .bsl5-text {
     color: #FFFFFF;
     font-size: 16px;
@@ -834,6 +894,10 @@ ion-icon {
     margin-top: 15px;
     margin-left: 40px;
     
+}
+
+.bsl5-textf {
+    color: #FFFFFF;
 }
 
 .filter-search-lev5 {
@@ -1017,6 +1081,7 @@ ion-icon {
     font-weight: 400;
     color: #DD4053;
     margin-top: 27px;
+    cursor: pointer;
 
 }
 
@@ -1035,6 +1100,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 362px;
     margin-left: 115px;
+    cursor: pointer;
+}
+
+.back-arrow-lev6:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .forvard-arrow-lev6 {
@@ -1045,6 +1115,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 362px;
     margin-right: 115px;
+    cursor: pointer;
+}
+
+.forvard-arrow-lev6:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .lev7 {
@@ -1120,6 +1195,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 280px;
     margin-left: 117px;
+    cursor: pointer;
+}
+
+.back-arrow-lev7:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .forvard-arrow-lev7 {
@@ -1130,6 +1210,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 360px;
     margin-left: 117px;
+    cursor: pointer;
+}
+
+.forvard-arrow-lev7:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .lev8 {
@@ -1232,6 +1317,14 @@ ion-icon {
     border-radius: 2px;
     margin-left: 50px;
     margin-top: 35px;
+}
+
+.button-send-lev8:hover {
+    background-color: antiquewhite;
+}
+
+.bsl8-p {
+    color: #DA2032;
 }
 
 .bsl8-text {
@@ -1383,6 +1476,10 @@ ion-icon {
     margin-left: 200px;
 }
 
+.button-lev10:hover {
+    background-color: #E3E3E3;
+}
+
 .button-text-lev10 {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -1390,6 +1487,10 @@ ion-icon {
     color: #969696;
     margin-left: 55px;
     margin-top: 20px;
+}
+
+.btl10 {
+    color: #969696;
 }
 
 .sert-img-lev10 {
@@ -1497,6 +1598,7 @@ ion-icon {
     box-sizing: border-box;
     margin-left: 25px;
     margin-top: 104px;
+    cursor: pointer;
 }
 
 .ccxb-text-lev11 {
@@ -1854,9 +1956,15 @@ ion-icon {
     background-color: #FFFFFF;
     border-radius: 2px;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.button-lev13:hover {
+    background-color: #E8E8E8;
 }
 
 .text-button-lev13 {
+    position: absolute;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;

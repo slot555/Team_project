@@ -326,8 +326,6 @@ ion-icon {
 }
 
 .main_cont{
-    width: 200px;
-    height: 100px;
     display: flex;
     padding: 30px 115px  0;
     font-family: 'Montserrat';
@@ -335,7 +333,6 @@ ion-icon {
     font-size: 12px;
     color: #969696;
     transition: 0.4s;
-    margin-left: 40px;
 }
 
 .main_cont:hover {
@@ -352,10 +349,281 @@ ion-icon {
     margin-left: 10px;
 }
 
+.glav-mc {
+    color: #969696;
+}
+
+.glav-mc:hover {
+    color: #232323;
+}
+
 .lev {
     height: 594px;
     width: 1440px;
     background-color: #FFFFFF;
+}
+
+.button {
+    margin-left: 28px;
+    margin-top: -25px;
+}
+
+.button1 {
+    height: 84px;
+    width: 800px;
+}
+
+.b1-item {
+    border-bottom: 1px solid #969696;
+}
+
+.but-input {
+    appearance: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.but-title {
+    display: flex;
+    cursor: pointer;
+    padding: 27px 1px;
+}
+
+.but-title:hover .sqare {
+    background-color: #DD4053;
+}
+
+.but-title:hover .sqare .sqare-text{
+    color: #fff;
+}
+
+.head-text-button1 {
+    margin-left: 50px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #323232;
+}
+
+.but-inside {
+    display: none;
+    font-size: 14px;
+    padding: 0 16px;
+}
+
+.but-input:checked ~ .but-title .sqare {
+    background-color: #DD4053;
+}
+
+.but-input:checked ~ .but-title .sqare .sqare-text{
+    color: #fff;
+}
+
+.but-input:checked ~ .but-inside {
+    display: block;
+}
+
+.sqare {
+    height: 25px;
+    width: 25px;
+    background-color: #F8F8F8;
+    margin-left: 2px;
+}
+
+.sqare-text {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #323232;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.gab {
+    position: absolute;
+    height: 25.5px;
+    width: 7.36px;
+    margin-left: 765px;
+}
+
+.pre-head-text-b1-i {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #323232;
+}
+
+.info-company-city {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #323232;
+    margin-top: 15px;
+}
+
+.date-bort {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sqare-db {
+    width: 7px;
+    height: 7px;
+    background-color: #DD4053;
+    margin-top: 7px;
+}
+
+.date-bort-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-left: 30px;
+}
+
+.block-timetable {
+    height: 150px;
+    width: 714px;
+    background-color: #F8F8F8;
+    margin-top: 25px;
+}
+
+.btt-head-text {
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+
+.btt-text1 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 50px;
+    margin-left: 37px;
+}
+
+.btt-text2 {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 101px;
+    margin-left: 37px;
+}
+
+.block-vip {
+    margin-top: 20px;
+    height: 235px;
+    width: 714px;
+    border: 1px solid #D0D0D0;
+}
+
+
+.btt-line {
+    position: absolute;
+    height: 1px;
+    width: 640px;
+    background-color: #E3E3E3;
+    margin-left: 37px;
+    margin-top: 90px;
+}
+
+.bv-head-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #323232;
+    margin-top: 20px;
+    margin-left: 37px;
+    position: absolute;
+}
+
+.bv-text1 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 56px;
+    margin-left: 37px;
+}
+
+
+.bv-text2 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 19px;
+    margin-left: 37px;
+}
+
+.button-flex-tb {
+    display: flex;
+    margin-top: 30px;
+}
+
+.button-tour-horv {
+    width: 237px;
+    height: 50px;
+    background-color: #DD4053;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.bth-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 45px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.button-tour-horv:hover {
+    background-color: #DD2030;
+}
+
+.button-buy-online {
+    height: 48px;
+    width: 234px;
+    border: 1px solid #DD4053;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.bbo-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DD4053;
+    margin-top: 15px;
+    margin-left: 53px;
+    position: absolute;
+}
+
+.button-buy-online:hover {
+    background-color: #DD2030;
+}
+
+
+.button-buy-online:hover .bbo-text {
+    color: #FFFFFF;
+}
+
+.ot-1-g-1 {
+    height: 20px;
+    width: 1px;
 }
 
 .lower_menu {
@@ -554,17 +822,112 @@ ion-icon {
     font-weight: 500;
     color: #232323;
     margin-left: 155px;
-    margin-top: -30px;
+    margin-top: 50px;
 }
 
 .znak-zap-img {
     position: absolute;
-    margin-top: 120px;
+    margin-top: 202px;
     margin-left: 240px;
 }
 
 .airplane-vector {
     position: absolute;
-    margin-top: 35px;
+    margin-top: 114px;
     margin-left: 40px;
+}
+
+.block-text {
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 515px;
+}
+
+.bt1-head-text {
+    margin-left: 45px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #323232;
+}
+
+.bt-1-head {
+    display: flex;
+}
+
+.rat-lev1 {
+    
+    margin-left: 90px;
+}
+
+.bt1-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #323232;
+    margin-top: 15px;
+    line-height: 26px;
+}
+
+.line-block-1 {
+    width: 800px;
+    height: 1px;
+    background: #D0D0D0;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.line-block-2 {
+    width: 800px;
+    height: 1px;
+    background: #D0D0D0;
+    margin-top: 85px;
+    margin-left: -30px;
+}
+
+.line-block-3 {
+    width: 800px;
+    height: 1px;
+    background: #D0D0D0;
+    margin-top: 85px;
+    margin-left: -30px;
+}
+
+.sqare-gray {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #F8F8F8;
+}
+
+.sqare-text-black {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 8px;
+    color: black;
+
+}
+
+.bt2-head-text {
+    margin-left: 45px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #323232;
+    position: absolute;
+
+}
+
+.gab-lev {
+    position: absolute;
+    margin-left: 712px;
+}
+
+.bt-2-head {
+    margin-top: 30px;
 }

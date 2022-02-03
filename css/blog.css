@@ -347,18 +347,36 @@ ion-icon {
     margin-left: 55px;
 }
 
-.page {
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+.main_cont{
+    display: flex;
+    padding: 30px 115px  0;
+    font-family: 'Montserrat';
     font-weight: 400;
+    font-size: 12px;
     color: #969696;
-    margin-left: 114px;
-    margin-top: 30px;
-    position: absolute;
+    transition: 0.4s;
 }
 
-.page-blog {
-    color: black;
+.main_cont:hover {
+    color: #232323;
+    transition: 0.4s;
+}
+
+.mc-d {
+    margin-left: 10px;
+}
+
+.m-cont {
+    color: #232323;
+    margin-left: 10px;
+}
+
+.glav-mc {
+    color: #969696;
+}
+
+.glav-mc:hover {
+    color: #232323;
 }
 
 .head-text-lev1 {
@@ -527,6 +545,7 @@ ion-icon {
     font-weight: 400;
     color: #DD4053;
     margin-top: 27px;
+    cursor: pointer;
 
 }
 
@@ -694,6 +713,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 362px;
     margin-left: 115px;
+    cursor: pointer;
+}
+
+.back-arrow-lev6:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .forvard-arrow-lev6 {
@@ -704,6 +728,11 @@ ion-icon {
     border-radius: 50px;
     margin-top: 362px;
     margin-right: 115px;
+    cursor: pointer;
+}
+
+.forvard-arrow-lev6:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .head-text-lev5 {
@@ -814,6 +843,7 @@ ion-icon {
     border-radius: 2px;
     margin-left: 416px;
     margin-top: 1242px;
+    cursor: pointer;
 }
 
 .button-lev3-text {
@@ -821,8 +851,9 @@ ion-icon {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #969696;
-    margin-top: 18px;
+    margin-top: 21px;
     margin-left: 59px;
+    cursor: pointer;
 }
 
 .button-lev3-news:hover {
