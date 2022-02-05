@@ -96,6 +96,15 @@ ion-icon {
     margin-left: -1.3rem;
   }
 
+  .line-blog-nav {
+    height: 3px;
+    width: 60px;
+    background: #DD4053;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 57px;
+}
+
 /* Информационное верхнее меню */
 
 .top-menu-info-container {
@@ -200,6 +209,7 @@ ion-icon {
     margin-top: 2.5px;
     position: absolute;
     margin-left: 30.5rem;
+    cursor: pointer;
 }
 
 /*Настройка иконок*/
@@ -363,11 +373,29 @@ ion-icon {
     margin-top: -325px;
 }
 
+.list-lev2{
+    display: flex;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 150px;
+}
+
 .transp-circl-lev2 {
-    height: 30px;
-    width: 30px;
-    background-color: green;
+    height: 7px;
+    width: 7px;
+    border: 1px solid #FFFFFF;
     border-radius: 50px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.transp-circl-lev2:hover {
+    background-color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.filled-circl-lev2 {
+    background-color: #FFFFFF;
 }
 
 /*Кнопка "Подробнее"*/
@@ -394,6 +422,7 @@ ion-icon {
     top: 30%;
     left: 30%;
 }
+
 
 /*Трейтий уровень "Консультация"*/
 .lev3 {
@@ -909,6 +938,7 @@ ion-icon {
     border-radius: 2px;
     margin-top: 52px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .filter-obj-search-lev5 {
@@ -1177,6 +1207,7 @@ ion-icon {
     font-weight: 400;
     color: #DD4053;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
@@ -1252,14 +1283,21 @@ ion-icon {
     display: flex;
 }
 
-.button-email-lev8 {
+
+.nl-lev8 {
     height: 50px;
-    width: 410px;
+    width: 377px;
     background: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    font-family: 'Montserrat';
     border: 1px solid #FFFFFF;
     border-radius: 2px;
-    margin-left: 203px;
+    margin-left: 183px;
     margin-top: 35px;
+}
+
+.nl-lev8::placeholder {
+    color: #fff;
 }
 
 .bel8-text {
@@ -1950,6 +1988,10 @@ ion-icon {
     border: 1px solid #FFFFFF;
 }
 
+.nl-lev13::placeholder {
+    color: #C4C4C4;
+}
+
 .button-lev13 {
     height: 50px;
     width: 170px;
@@ -2209,6 +2251,12 @@ ion-icon {
     margin-top: 478px;
     margin-left: 115px;
     z-index: 2;
+    cursor: pointer;
+}
+
+.back-arrow-lev15:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+
 }
 
 .forvard-arrow-lev15 {
@@ -2220,6 +2268,11 @@ ion-icon {
     margin-top: 478px;
     margin-left: 1275px;
     z-index: 2;
+    cursor: pointer;
+}
+
+.forvard-arrow-lev15:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
 }
 
 .lev16 {

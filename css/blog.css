@@ -413,6 +413,10 @@ ion-icon {
     color: #232323;
 }
 
+.text-podr-lev1:hover {
+    color: #DD4053;
+}
+
 .paf-podr-lev1 {
     width: 25.5px;
     height: 7.36px;
@@ -760,6 +764,15 @@ ion-icon {
     margin-left: 26px;
     border: 1px solid #969696;
     border-radius: 2px;
+    cursor: pointer;
+}
+
+.head-button-lev5:hover {
+    background-color: #969696;
+}
+
+.head-button-lev5:hover .hbl6-text {
+    color: #fff;
 }
 
 .head-lev5 {
